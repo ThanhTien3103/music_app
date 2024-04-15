@@ -32,6 +32,8 @@ class HomePage extends StatelessWidget {
               label: 'favorite',
             ),
           ],
-        )));
+        ),
+      body: controller.currentPage,
+    ));
   }
 }
